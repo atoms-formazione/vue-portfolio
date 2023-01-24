@@ -5,16 +5,14 @@
     <h1 class="text1">Hello, I'm John,</h1>
     <h1 class="text2">Product<br />Designer</h1>
     <h1 class="text3">based in Netherland</h1>
+    <button class="button">Resume</button>
   </div>
 </template>
 
 <style scoped>
 .text1 {
-  position: absolute;
   width: 211px;
   height: 42px;
-  left: 97px;
-  top: 288px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -23,14 +21,14 @@
   line-height: 42px;
 
   color: #03045e;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .text2 {
-  position: absolute;
   width: 616px;
   height: 232px;
-  left: 97px;
-  top: 329px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -39,14 +37,14 @@
   line-height: 116px;
 
   color: #03045e;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .text3 {
-  position: absolute;
   width: 294px;
   height: 42px;
-  left: 97px;
-  top: 571px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -55,5 +53,20 @@
   line-height: 42px;
 
   color: #03045e;
+
+  margin-top: 0px;
+}
+
+.button {
+  width: 164px;
+  height: 68px;
+  background-color: #f5ee84;
+  border-radius: 10px;
+  font-size: large;
+  box-shadow: 10px 10px #fbf8cc inset, 10px 10px #f5ee84;
+}
+
+.button:hover {
+  cursor: pointer;
 }
 </style>

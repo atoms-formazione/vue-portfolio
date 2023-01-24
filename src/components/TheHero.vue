@@ -4,6 +4,17 @@ import BigAvatar from "./BigAvatar.vue";
 </script>
 
 <template>
-  <WelcomeIntro></WelcomeIntro>
-  <BigAvatar></BigAvatar>
+  <div class="hero">
+    <WelcomeIntro></WelcomeIntro>
+    <BigAvatar></BigAvatar>
+  </div>
 </template>
+
+<style>
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+</style>

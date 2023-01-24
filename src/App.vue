@@ -16,7 +16,7 @@ import TheHero from "./components/TheHero.vue";
   <TheHero></TheHero>
 </template>
 
-<style scoped>
+<style>
 * {
   font-family: "Poppins", sans-serif;
   background-color: #fbf8cc;
