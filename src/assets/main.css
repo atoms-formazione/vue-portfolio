@@ -1,5 +1,5 @@
 @import "./base.css";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @media (hover: hover) {
   a:hover {
@@ -10,6 +10,7 @@
 #app {
   font-family: "Poppins", sans-serif;
   background-color: #fbf8cc;
+  color: #03045e;
   /*background-image: url("Home.png");*/
   background-size: contain;
   width: 100vw;

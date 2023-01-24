@@ -12,7 +12,6 @@
 
 <style scoped>
 .mainIntro {
-  background-color: blue;
   width: 100%;
   display: flex;
   justify-content: center;

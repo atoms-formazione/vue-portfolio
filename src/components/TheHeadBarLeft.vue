@@ -11,6 +11,5 @@ div {
   font-weight: 1000;
   font-size: 24px;
   height: fit-content;
-  color: #03045e;
 }
 </style>
