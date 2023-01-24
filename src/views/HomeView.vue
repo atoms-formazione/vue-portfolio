@@ -1,9 +1,21 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import TheNavbar from "@/components/TheNavbar.vue";
+import TheHero from "@/components/TheHero.vue";
+
+const p1 = {
+  firstName: "John",
+  lastName: "Doe",
+  residency: "Nederland",
+  employment: "Product Designer",
+  imgPath: "",
+};
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <TheNavbar class="nav-bar" v-bind="p1"></TheNavbar>
+    <TheHero class="the-hero" v-bind="p1"></TheHero>
   </main>
 </template>
+
+<style scoped></style>
