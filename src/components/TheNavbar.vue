@@ -81,10 +81,10 @@ defineProps<{
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-social > a > img {
   width: 26px;
-  height: 26px;
 }
 </style>

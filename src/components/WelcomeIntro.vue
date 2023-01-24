@@ -32,8 +32,22 @@ defineProps<{
 
   border: #474306 solid 1px;
   border-radius: 5px;
+  background-color: transparent;
+  /*background-position: 2px 3px;
+  box-shadow: 2px 3px 3px 3px #f5ee84;*/
+}
+
+#btn-resume::after {
+  content: "";
+  border-radius: 5px;
+  position: relative;
+  display: block;
+  bottom: 26px;
+  right: 1px;
+  width: 164px;
+  height: 68px;
+  z-index: -1;
   background-color: #f5ee84;
-  box-shadow: 2px 3px 3px 3px #f5ee84;
 }
 
 .container-intro > h1 {
