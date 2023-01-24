@@ -25,6 +25,7 @@ const job = "Software Developer";
 .buttonResume{
     text-align: left;
     padding: 1rem;
+    font-size: 1rem;
     background-color: aquamarine;
     border-radius: 10px;
     width: 164px;
@@ -36,7 +37,7 @@ const job = "Software Developer";
 }
 .container{
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -49,12 +50,14 @@ const job = "Software Developer";
  font-size: 1.2rem;
 }
 .testo {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: aqua;
   align-items: center;
   text-align: left;
+  margin-left: 5%;
 }
 .job {
   width: 100%;  

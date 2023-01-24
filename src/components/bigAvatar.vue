@@ -12,7 +12,12 @@
 
 .avatar-img{
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
     background-color: red;
+    margin-right: 5%;
+}
+
+.avatar-img>img{
+    width: 90%;
 }
 </style>
