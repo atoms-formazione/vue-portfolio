@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe.vue";
 import NavBar from "./components/NavBar.vue";
 import TheHero from "./components/TheHero.vue";
 import WorkSpace from "./components/WorkSpace.vue";
+import Contatacs from "./components/Contatacs.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import WorkSpace from "./components/WorkSpace.vue";
       <div class="about"><AboutMe></AboutMe></div>
       <div class="workspace"><WorkSpace></WorkSpace></div>
     </div>
+    <Contatacs></Contatacs>
   </div>
 </template>
 
