@@ -19,5 +19,6 @@
 
 .avatar-img>img{
     width: 90%;
+    object-fit: scale-down;
 }
 </style>
