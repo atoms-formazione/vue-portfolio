@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import AboutSection from './components/aboutSection.vue';
 import NavBar from './components/navbar.vue'
 import theHero from './components/theHero.vue'
 
@@ -11,6 +12,7 @@ import theHero from './components/theHero.vue'
   </header>
   <body>
     <theHero></theHero>
+    <AboutSection></AboutSection>
   </body>
 
   <!-- <RouterView /> -->
