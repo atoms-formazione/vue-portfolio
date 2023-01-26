@@ -54,5 +54,6 @@ button {
   height: 68px;
   background-color: #F5EE84;
   transform: translate(15%);
+  cursor: pointer;
 }
 </style>

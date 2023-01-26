@@ -98,9 +98,11 @@ const lastName = ref("Doe");
 .navBar a{
   margin: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 .socialM img{
   margin: 10px;
+  cursor: pointer;
 }
 /* .navBar {
   display: flex;
