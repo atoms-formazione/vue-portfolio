@@ -7,7 +7,7 @@ const p1 = {
   lastName: "Doe",
   residency: "Nederland",
   employment: "Product Designer",
-  imgPath: "",
+  imgPath: "src/assets/BigAvatar.svg",
 };
 </script>
 

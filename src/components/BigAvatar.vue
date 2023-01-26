@@ -6,15 +6,15 @@ defineProps<{
 <template>
   <div>
     <div>
-      <img class="big-avatar" src="./imgs/BigAvatar.svg" alt="big-avatar-img" />
+      <img class="big-avatar" :src="imgPath" alt="big-avatar-img" />
       <img
         id="big-avatar-decoration-1"
-        src="./imgs/BigAvatarDecoration1.svg"
+        src="../assets/BigAvatarDecoration1.svg"
         alt="big-avatar-decoration-1"
       />
       <img
         id="big-avatar-decoration-2"
-        src="./imgs/BigAvatarDecoration2.svg"
+        src="../assets/BigAvatarDecoration2.svg"
         alt="big-avatar-decoration-2"
       />
     </div>
@@ -35,6 +35,7 @@ defineProps<{
   bottom: 160px;
   right: 10px;
   z-index: 2;
+  background-color: transparent;
 }
 
 #big-avatar-decoration-2 {
@@ -42,5 +43,6 @@ defineProps<{
   bottom: 500px;
   left: 350px;
   z-index: 2;
+  background-color: transparent;
 }
 </style>

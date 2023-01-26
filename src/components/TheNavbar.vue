@@ -5,8 +5,6 @@ defineProps<{
   firstName: string;
   lastName: string;
 }>();
-//let firstName = "John";
-//let lastName = "Doe";
 </script>
 
 <template>

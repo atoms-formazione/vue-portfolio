@@ -2,23 +2,24 @@
 import BigAvatar from "./BigAvatar.vue";
 import WelcomeIntro from "./WelcomeIntro.vue";
 
-/*defineProps<{
+const p1 = defineProps<{
   firstName: string;
   residency: string;
   employment: string;
   imgPath: string;
-}>();*/
+}>();
 </script>
 
 <template>
   <div>
-    <WelcomeIntro
+    <!--<WelcomeIntro
       class="welcome-component"
       firstName="John"
       residency="Nederland"
       employment="Product Designer"
-    ></WelcomeIntro>
-    <BigAvatar class="big-avatar-component" imgPath="/daiwndoa"></BigAvatar>
+    ></WelcomeIntro>-->
+    <WelcomeIntro class="welcome-component" v-bind="p1"></WelcomeIntro>
+    <BigAvatar class="big-avatar-component" :imgPath="imgPath"></BigAvatar>
   </div>
 </template>
 
