@@ -1,6 +1,6 @@
 <template>
     <div class="avatar-img">
-        <img src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=">
+            <img src="@/assets/Immagine.jpg" alt="Avatar">
     </div>
 </template>
 
@@ -11,14 +11,23 @@
 <style scoped>
 
 .avatar-img{
-    width: 50vw;
+    width: 48vw;
     height: 80vh;
-    background-color: red;
     margin-right: 5%;
 }
 
 .avatar-img>img{
-    width: 90%;
-    object-fit: scale-down;
+    max-width:70%;
+    max-height:70%;
+  
+    position:absolute;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5rem;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 </style>

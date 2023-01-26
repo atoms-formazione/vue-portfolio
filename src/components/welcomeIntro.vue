@@ -5,7 +5,7 @@
       <strong class="job"> {{ job }} </strong>
       <p class="p">Based in Italy</p>
     <div class="buttondiv">
-        <button class="buttonResume">Resume</button>
+        <button class="buttonResume"><a href="@/assets/CV-StivanelloPietro.pdf" target="_blank">Resume</a></button>
     </div>
     </div>
   </div>
@@ -18,15 +18,23 @@ const job = "Software Developer";
 <style scoped>
 
 .buttondiv{
-    background-color: rebeccapurple;
+  background-color: rgba(255, 1, 208);
     width: 100%;
     margin-top: 2rem;
 }
+
+.buttondiv> button > a{
+  text-decoration: none;
+  padding:1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .buttonResume{
     text-align: left;
     padding: 1rem;
     font-size: 1rem;
-    background-color: aquamarine;
+    background-color: rgb(247, 80, 217);
     border-radius: 10px;
     width: 164px;
     height: 68px;
@@ -38,7 +46,7 @@ const job = "Software Developer";
 .container{
     width: 50vw;
     height: 80vh;
-    background-color: blue;
+    background-color: rgba(255, 1, 208);
     display: flex;
     justify-content: center;
 
@@ -54,7 +62,7 @@ const job = "Software Developer";
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: aqua;
+  background-color: rgba(255, 1, 208);
   align-items: center;
   text-align: left;
   margin-left: 5%;

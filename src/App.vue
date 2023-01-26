@@ -21,7 +21,7 @@ import theHero from './components/theHero.vue'
 <style scoped>
 
 body{
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   color: darkblue ;
 
 }
