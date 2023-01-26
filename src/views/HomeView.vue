@@ -1,8 +1,7 @@
 <script lang="ts" setup>
 import TheNavBar from "../components/TheNavBar.vue";
-import TitleText from "@/components/TitleText.vue";
 import TheHero from "@/components/TheHero.vue";
-import JobList from "@/components/JobList.vue";
+import AboutSection from "@/components/AboutSection.vue";
 </script>
 <template>
   <div class="home">
@@ -12,9 +11,9 @@ import JobList from "@/components/JobList.vue";
    <div>
     <TheHero />
    </div>
-   <TitleText />
+   <div>
+   <AboutSection />
+   </div>
   </div>
-  <div> 
-   <JobList />
-  </div>
+
 </template>
