@@ -11,5 +11,5 @@ import BigAvatar from './BigAvatar.vue';
 <style lang="css">
  .TheHero{
     display: flex;
- }   
+ }
 </style>

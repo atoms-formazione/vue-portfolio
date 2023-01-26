@@ -7,9 +7,7 @@
 </script>
 <style lang="css">
 .img{
-  width: 506px;
-  height: 509px;
-  left: 831px;
-  top: 191px;
+margin-left: 10%;
+margin-top: 8%;
 }
 </style>

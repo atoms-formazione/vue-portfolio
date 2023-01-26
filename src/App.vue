@@ -10,5 +10,7 @@ import { RouterLink, RouterView } from 'vue-router';
 * {
   font-family: 'Poppins', sans-serif;
   background-color: #FBF8CC;
+  margin:7px; 
 }
+
 </style>
