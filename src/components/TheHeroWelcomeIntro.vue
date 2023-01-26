@@ -18,13 +18,13 @@ export default {};
   flex-direction: column;
   line-height: 70px;
   word-spacing: 10px;
-
 }
 .profession {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 70px;
+  padding: 0px 20px;
  /*  line-height: 70px; */
   /* or 116% *
   /* Dark Blue */
@@ -53,5 +53,6 @@ button {
   width: 164px;
   height: 68px;
   background-color: #F5EE84;
+  transform: translate(15%);
 }
 </style>

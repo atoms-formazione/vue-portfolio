@@ -82,6 +82,7 @@ const lastName = ref("Doe");
 </script>
 <style>
 .container{
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 1rem;
@@ -92,6 +93,7 @@ const lastName = ref("Doe");
 }
 .nome{
   font-weight: 600;
+  padding: 0px 40px;
 }
 .navBar a{
   margin: 20px;

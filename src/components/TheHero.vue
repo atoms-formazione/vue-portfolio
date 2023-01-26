@@ -13,7 +13,7 @@ import TheHeroBigAvatar from "./TheHeroBigAvatar.vue";
 .hero {
   display: flex;
   margin: 2rem;
-  max-width: 768px;
+  width: 768px;
   gap: 10rem;
 }
 </style>
