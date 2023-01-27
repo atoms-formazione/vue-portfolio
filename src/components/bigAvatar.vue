@@ -1,6 +1,7 @@
 <template>
     <div class="avatar-img">
-            <img src="@/assets/Immagine.jpg" alt="Avatar">
+            <!-- <img src="@/assets/Immagine.jpg" alt="Avatar"> -->
+            <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png" alt="Avatar">
     </div>
 </template>
 
