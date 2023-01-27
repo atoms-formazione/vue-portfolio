@@ -13,7 +13,7 @@ import AboutSection from "./AboutSection.vue";
     <TheHero> </TheHero>
   </div>
   <div>
-    <AboutSection id="about"></AboutSection>
+    <AboutSection></AboutSection>
   </div>
 </template>
 

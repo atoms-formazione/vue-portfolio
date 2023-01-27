@@ -17,9 +17,8 @@ export default {};
 .big-avatar1 {
   width: 50px;
   height: 56px;
- 
-  transform: translate(-10%, -200%);
 
+  transform: translate(-10%, -200%);
 }
 .big-avatar2 {
   width: 103.85px;
@@ -29,10 +28,12 @@ export default {};
   background-color: transparent;
 }
 .images {
- display: flex;
- justify-content: center;
- align-items: center;
- width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  position: relative;
+  /* transform: translate(400%); */
 }
 /* .big-avatar {
   padding-right: 0px;

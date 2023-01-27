@@ -25,12 +25,12 @@ export default {};
   font-weight: 600;
   font-size: 70px;
   padding: 0px 20px;
- /*  line-height: 70px; */
+  /*  line-height: 70px; */
   /* or 116% *
   /* Dark Blue */
   color: #03045e;
 }
-p{
+p {
   margin: 0;
 }
 .local {
@@ -39,7 +39,7 @@ p{
   font-weight: 500;
   font-size: 28px;
   color: #03045e;
-  transform: translate(0%,-70%);
+  transform: translate(0%, -70%);
 }
 .greetting {
   font-family: "Poppins";
@@ -47,12 +47,12 @@ p{
   font-weight: 500;
   font-size: 28px;
   color: #03045e;
-  transform: translate(0%,70%);
+  transform: translate(0%, 70%);
 }
 button {
   width: 164px;
   height: 68px;
-  background-color: #F5EE84;
+  background-color: #f5ee84;
   transform: translate(15%);
   cursor: pointer;
 }

@@ -1,5 +1,5 @@
 <template>
-  <header >
+  <header>
     <div class="container">
       <div class="nome">{{ firstName }} {{ lastName }}</div>
       <div class="navBar">
@@ -8,23 +8,23 @@
           <a href="#about">About</a>
           <a href="#work">Work</a>
         </nav>
-     </div>
+      </div>
       <div class="socialM">
         <img
-        src="src/components/icons/medium-4 1.svg"
-        alt="img"
-        class="iconNav1"
-      />
-      <img
-        src="src/components/icons/behance-2 1.svg"
-        alt="img"
-        class="iconNav2"
-      />
-      <img
-        src="src/components/icons/twitter-6 1.svg"
-        alt="img"
-        class="iconNav3"
-      />
+          src="src/components/icons/medium-4 1.svg"
+          alt="img"
+          class="iconNav1"
+        />
+        <img
+          src="src/components/icons/behance-2 1.svg"
+          alt="img"
+          class="iconNav2"
+        />
+        <img
+          src="src/components/icons/twitter-6 1.svg"
+          alt="img"
+          class="iconNav3"
+        />
       </div>
     </div>
   </header>
@@ -53,7 +53,7 @@
       />
     </div>
   </div> -->
- <!-- 
+  <!-- 
     <p>{{ firstName }} {{ lastName }}</p>
 
     <div class="iconNav">
@@ -81,7 +81,7 @@ const firstName = ref("John");
 const lastName = ref("Doe");
 </script>
 <style>
-.container{
+.container {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -91,16 +91,16 @@ const lastName = ref("Doe");
   font-style: normal;
   color: #03045e;
 }
-.nome{
+.nome {
   font-weight: 600;
   padding: 0px 40px;
 }
-.navBar a{
+.navBar a {
   margin: 20px;
   text-decoration: none;
   cursor: pointer;
 }
-.socialM img{
+.socialM img {
   margin: 10px;
   cursor: pointer;
 }
