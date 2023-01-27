@@ -29,6 +29,6 @@ import WelcomeIntro from './welcomeIntro.vue';
 .avatar{
     flex: 1;
     text-align: center;
-    background-color: rgba(255, 1, 208);
+    background-color: violet;
 }
 </style>

@@ -6,6 +6,9 @@
                 <strong>{{ nome }} {{ cognome }}</strong>
             </div>
             <div class="links">
+                <!-- <router-link to="/">Home</router-link>
+                <router-link to="/about">About</router-link>
+                <router-link to="/work">Work</router-link> -->
                 <a>Home</a>
                 <a>About</a>
                 <a>Work</a>
@@ -23,14 +26,27 @@
 </template>
 
 <script setup lang="ts">
+import type { RouterLink } from 'vue-router';
+import AboutSection from './aboutSection.vue';
+import TheHero from './theHero.vue';
+import WorkSection from './workSection.vue';
+
 const nome = 'Pietro'
 const cognome = 'Stivanello'
+
+const routes = [
+  { path: '/', component: TheHero },
+  { path: '/about', component: AboutSection },
+  { path: '/work', component: WorkSection },
+]
+
 </script>
 
 <style lang="css" scoped>
 .navbar{
     box-sizing: content-box;
-    /* background-color: rgba(255, 1, 208, 0.547); */
+    background-color: violet;
+
     color: darkblue;
     padding: 2rem;
 }

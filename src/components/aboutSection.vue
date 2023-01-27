@@ -19,7 +19,7 @@ import TitleText from './titleText.vue';
 
 <style scoped>
 .flex-container{
-    background-color: rgba(255, 1, 208);
+    background-color: violet;
 
 }
 </style>

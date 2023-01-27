@@ -18,9 +18,9 @@ const job = "Software Developer";
 <style scoped>
 
 .buttondiv{
-  background-color: rgba(255, 1, 208);
     width: 100%;
     margin-top: 2rem;
+    
 }
 
 .buttondiv> button > a{
@@ -46,9 +46,9 @@ const job = "Software Developer";
 .container{
     width: 50vw;
     height: 80vh;
-    background-color: rgba(255, 1, 208);
     display: flex;
     justify-content: center;
+    background-color: violet;
 
 }
 .p {
@@ -62,7 +62,6 @@ const job = "Software Developer";
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(255, 1, 208);
   align-items: center;
   text-align: left;
   margin-left: 5%;
