@@ -2,6 +2,7 @@
 import TheNavbar from "@/components/TheNavbar.vue";
 import TheHero from "@/components/TheHero.vue";
 import AboutSection from "@/components/AboutSection.vue";
+import WorkSection from "@/components/WorkSection.vue";
 
 const p1 = {
   firstName: "John",
@@ -17,6 +18,7 @@ const p1 = {
     <TheNavbar class="nav-bar" v-bind="p1"></TheNavbar>
     <TheHero class="the-hero" v-bind="p1"></TheHero>
     <AboutSection></AboutSection>
+    <WorkSection></WorkSection>
   </main>
 </template>
 
