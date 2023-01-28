@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import TheNavbar from "@/components/TheNavbar.vue";
 import TheHero from "@/components/TheHero.vue";
+import AboutSection from "@/components/AboutSection.vue";
 
 const p1 = {
   firstName: "John",
@@ -15,7 +16,12 @@ const p1 = {
   <main>
     <TheNavbar class="nav-bar" v-bind="p1"></TheNavbar>
     <TheHero class="the-hero" v-bind="p1"></TheHero>
+    <AboutSection></AboutSection>
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  margin: auto 10px;
+}
+</style>

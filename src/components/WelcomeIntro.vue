@@ -44,12 +44,19 @@ defineProps<{
   border-radius: 5px;
   position: absolute;
   display: block;
-  bottom: -8px;
+  bottom: -6px;
   left: 6px;
   width: 164px;
   height: 68px;
   z-index: -1;
   background-color: #f5ee84;
+}
+
+#btn-resume:active {
+  transform: translate(6px, 6px);
+}
+#btn-resume:active::before {
+  transform: translate(-6px, -6px);
 }
 
 .container-intro > h1 {
