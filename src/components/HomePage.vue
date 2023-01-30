@@ -2,6 +2,7 @@
 import PresentationSection from "./sections/PresentationSection.vue";
 import AboutSection from "./sections/AboutSection.vue";
 import WorkSection from "./sections/WorkSection.vue";
+import ContactSection from "./sections/ContactSection.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import WorkSection from "./sections/WorkSection.vue";
     <PresentationSection />
     <AboutSection />
     <WorkSection />
+    <ContactSection />
   </div>
 </template>
 
