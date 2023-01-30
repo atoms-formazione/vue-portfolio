@@ -21,6 +21,7 @@ import Contatacs from "./components/Contatacs.vue";
 <style scoped>
 .midsection {
   display: flex;
+  margin-bottom: -150px;
 }
 
 .about{
@@ -29,4 +30,5 @@ import Contatacs from "./components/Contatacs.vue";
 .workspace {
   flex: 1;
 }
+
 </style>

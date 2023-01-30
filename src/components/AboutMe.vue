@@ -12,9 +12,10 @@
         </div>
         <div class="JobList">
             <ul>
-                <li><p>lavoro di squadra</p></li>
-                <li><p>empatia</p></li>
-                <li><p>coraggio</p></li>
+                <li><h3>Competenze tecniche</h3><p>Competenze di base nella programmazione in backend con linguaggi come JAVA ed SQL, ed in frontend con linguaggio HTML, CSS e JAVASCRIPT, oltre al framework Angular</p></li>
+                <br>
+                <li><h3>Soft Skill</h3><p>Capacità di lavorare in team, agilità nella risoluzione dei problemi, duttilità nell'affrontare situazioni presenti nell'ambiente lavorativo,</p></li>
+                <br>
             </ul>
         </div>
     </div>
