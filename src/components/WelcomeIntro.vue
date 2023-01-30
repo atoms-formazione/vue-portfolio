@@ -3,14 +3,19 @@
 <template>
   <div class="WI">
     <p>Hello, i'm Lorenzo,</p>
-    <p>Junior Full-Stack Developer</p>
-    <p>Based in Brescia</p>
+    <p id="big">Junior Full-Stack Developer</p>
+    <p>Based in North-Italy</p>
   </div>
 </template>
 
 <style scoped>
 .WI {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
   position: relative;
-  left: 30px;
+}
+
+#big {
+  font-weight: bold;
 }
 </style>
