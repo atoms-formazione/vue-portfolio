@@ -16,7 +16,6 @@
 
 <style scoped>
 .topnav {
-  background-color: rgb(208, 208, 147);
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
   overflow: hidden;
@@ -47,7 +46,7 @@
 }
 
 .topnav b:hover {
-  background-color: rgb(199, 199, 169);
+  background-color: rgb(230, 225, 154);
 }
 
 .icons {

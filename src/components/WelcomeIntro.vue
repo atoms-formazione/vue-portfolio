@@ -2,9 +2,9 @@
 
 <template>
   <div class="WI">
-    <p>Hello, i'm Lorenzo,</p>
+    <p>Hi, i'm Lorenzo,</p>
     <p id="big">Junior Developer</p>
-    <p>Based in North-Italy.</p>
+    <p>Based in Italy.</p>
     <button id="buttonResume">Resume</button>
   </div>
 </template>
@@ -13,6 +13,7 @@
 .WI {
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
+  font-weight: normal;
   color: black;
   position: relative;
   left: 28px;
