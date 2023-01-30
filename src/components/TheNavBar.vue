@@ -1,25 +1,41 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="b">
-    <h1>Lorenzo B.B.</h1>
-    <h2>Home About Work</h2>
+  <div class="topnav">
+    <b>Lorenzo B.B.</b>
+    <a href="url_home">Home</a>
+    <a href="url_about">About</a>
+    <a href="url_work">Work</a>
   </div>
 </template>
 
 <style scoped>
-#b {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
+.topnav {
+  background-color: rgb(208, 208, 147);
+  overflow: hidden;
+  width: 100%;
 }
-h1 {
-  position: absolute;
-  left: 0px;
-  border: 10px;
-  border-color: aqua;
+
+.topnav b {
+  float: left;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 20px;
 }
-h2 {
-  position: absolute;
-  left: 50px;
+
+.topnav a {
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: right;
+}
+
+.topnav a:hover {
+  background-color: rgb(207, 207, 198);
 }
 </style>
