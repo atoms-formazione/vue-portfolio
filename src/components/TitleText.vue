@@ -16,7 +16,7 @@
   color: #f7f197;
 }
 
-.title-text
-padding: 1rem;
+.title-text {
+  padding-left: 1rem;
 }
 </style>
