@@ -18,10 +18,9 @@
 .topnav {
   background-color: rgb(208, 208, 147);
   font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
+  font-size: 25px;
   overflow: hidden;
   width: 100%;
-  display: flex;
   display: flex;
   justify-content: center;
   position: relative;
