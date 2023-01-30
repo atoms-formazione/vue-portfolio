@@ -1,1 +1,6 @@
 @import "./base.css";
+
+body {
+  padding-left: 97px;
+  padding-right: 103px;
+}
