@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import TheHeadbar from "./components/TheHeadbar.vue";
 import TheHero from "./components/TheHero.vue";
+import AboutSection from "./components/AboutSection.vue";
 </script>
 
 <template>
   <TheHeadbar></TheHeadbar>
   <TheHero></TheHero>
+  <AboutSection></AboutSection>
 </template>
 
 <style scoped>

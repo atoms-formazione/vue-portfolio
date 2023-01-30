@@ -11,11 +11,17 @@
   font-family: "Poppins", sans-serif;
   background-color: #fbf8cc;
   color: #03045e;
-  /*background-image: url("Home.png");*/
-  background-size: contain;
+  background-image: url("Home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
+  overflow-wrap: break-word;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  object-fit: cover;
 }
