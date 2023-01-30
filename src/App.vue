@@ -6,7 +6,7 @@ import TheNavBar from "./components/TheNavBar.vue";
 <template>
   <header>
     <div>
-      <TheNavBar></TheNavBar>
+      <the-nav-bar></the-nav-bar>
     </div>
   </header>
 </template>

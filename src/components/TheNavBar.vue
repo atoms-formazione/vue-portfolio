@@ -2,10 +2,15 @@
 
 <template>
   <div class="topnav">
-    <a>Lorenzo B.B.</a>
+    <a>Lorenzo Boselli Botturi</a>
     <b href="url_home">Home</b>
     <b href="url_about">About</b>
     <b href="url_work">Work</b>
+    <div class="icons">
+      <img height="24" width="24" src="icon1.png" />
+      <img height="24" width="24" src="icon2.png" />
+      <img height="24" width="24" src="icon3.png" />
+    </div>
   </div>
 </template>
 
@@ -13,6 +18,7 @@
 .topnav {
   background-color: rgb(208, 208, 147);
   font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
   overflow: hidden;
   width: 100%;
   display: flex;
@@ -20,6 +26,7 @@
   justify-content: center;
   position: relative;
   font-weight: bold;
+  float: left;
 }
 
 .topnav a {
@@ -28,7 +35,6 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
   margin: 20px;
   position: fixed;
   top: -12px;
@@ -40,7 +46,6 @@
   color: black;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
   text-align: center;
   position: relative;
   font-weight: normal;
@@ -48,5 +53,15 @@
 
 .topnav b:hover {
   background-color: rgb(199, 199, 169);
+}
+
+.icons {
+  float: left;
+  position: fixed;
+  top: 21px;
+  right: 45px;
+}
+.icons :hover {
+  background-color: rgb(196, 196, 167);
 }
 </style>
