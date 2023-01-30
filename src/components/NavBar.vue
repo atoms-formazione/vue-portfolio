@@ -1,5 +1,7 @@
 <script setup lang="ts">
-// TODO: add links
+import IconSocialBehance from "./icons/IconSocialBehance.vue";
+import IconSocialMedium from "./icons/IconSocialMedium.vue";
+import IconSocialTwitter from "./icons/IconSocialTwitter.vue";
 </script>
 
 <template>
@@ -13,9 +15,9 @@
     </ul>
 
     <ul class="nav-icons">
-      <li>Icon1</li>
-      <li>Icon2</li>
-      <li>Icon3</li>
+      <li><IconSocialTwitter /></li>
+      <li><IconSocialBehance /></li>
+      <li><IconSocialMedium /></li>
     </ul>
   </div>
 </template>
@@ -25,6 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 40px 0;
 }
 
 .my-name {
@@ -55,6 +58,5 @@
   font-size: 18px;
   line-height: 27px;
   list-style: none;
-  border: solid black;
 }
 </style>

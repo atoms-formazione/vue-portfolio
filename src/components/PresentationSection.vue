@@ -62,6 +62,7 @@ import IconAvatarPlus from "./icons/IconAvatarPlus.vue";
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  height: 600px;
 }
 
 .icon-lines {
