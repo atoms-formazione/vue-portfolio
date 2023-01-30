@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import TheNavbar from "./components/TheNavbar.vue";
 import TheHero from "./components/TheHero.vue";
+import AboutSection from "./components/AboutSection.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import TheHero from "./components/TheHero.vue";
   </head>
   <TheNavbar></TheNavbar>
   <TheHero></TheHero>
+  <AboutSection></AboutSection>
 </template>
 
 <style>
