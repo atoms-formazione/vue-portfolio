@@ -16,5 +16,6 @@ import BigAvatar from "./BigAvatar.vue";
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
+  margin-left: 50px;
 }
 </style>

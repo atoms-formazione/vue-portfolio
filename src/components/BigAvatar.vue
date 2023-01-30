@@ -10,16 +10,24 @@
 .photo {
   width: 506px;
   height: 509px;
+  margin-right: 50px;
 }
 
 .plus {
+  position: relative;
   width: 50px;
   height: 56px;
-  vertical-align: top;
+  bottom: 460px;
+  right: 150px;
+  background-color: transparent;
 }
 
 .dash {
+  position: relative;
   width: 103.85px;
   height: 29.44px;
+  bottom: 100px;
+  left: 100px;
+  background-color: transparent;
 }
 </style>
