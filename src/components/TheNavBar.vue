@@ -30,13 +30,12 @@
 
 .topnav a {
   color: black;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   margin: 20px;
   position: fixed;
   top: -12px;
-  left: 0px;
+  left: 0%;
 }
 
 .topnav b {
