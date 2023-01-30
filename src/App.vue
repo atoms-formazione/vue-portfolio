@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import TheNavBar from "./components/TheNavBar.vue";
 import TheHero from "./components/TheHero.vue";
+import AboutSection from "./components/AboutSection.vue";
 </script>
 
 <template>
@@ -11,6 +12,9 @@ import TheHero from "./components/TheHero.vue";
     </div>
     <div>
       <the-hero></the-hero>
+    </div>
+    <div>
+      <about-section></about-section>
     </div>
   </header>
 </template>
