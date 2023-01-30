@@ -2,6 +2,7 @@
 import TheNavbar from "./components/TheNavbar.vue";
 import TheHero from "./components/TheHero.vue";
 import AboutSection from "./components/AboutSection.vue";
+import WorkSection from "./components/WorkSection.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import AboutSection from "./components/AboutSection.vue";
   <TheNavbar></TheNavbar>
   <TheHero></TheHero>
   <AboutSection></AboutSection>
+  <WorkSection></WorkSection>
 </template>
 
 <style>

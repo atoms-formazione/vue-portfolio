@@ -1,3 +1,5 @@
+<script setup lang="ts"></script>
+
 <template>
   <div>
     <img src="./icons/dash.svg" alt="dash" class="dash" />
