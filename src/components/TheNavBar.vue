@@ -26,11 +26,9 @@
   justify-content: center;
   position: relative;
   font-weight: bold;
-  float: left;
 }
 
 .topnav a {
-  float: left;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -42,7 +40,6 @@
 }
 
 .topnav b {
-  float: left;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,7 +53,6 @@
 }
 
 .icons {
-  float: left;
   position: fixed;
   top: 21px;
   right: 45px;
