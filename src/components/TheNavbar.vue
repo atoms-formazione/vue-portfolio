@@ -20,7 +20,7 @@
 .all {
   display: flex;
   flex-direction: row;
-  align-content:center;
+  align-content: center;
 }
 .name {
   flex: 1;
@@ -50,6 +50,9 @@
   flex: 1;
   width: 276px;
   height: 27px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #03045e;
 }
 
 .vector {
