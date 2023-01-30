@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import NavLinks from "../atoms/NavLinks.vue";
+import NavLinks from "../molecules/NavLinks.vue";
 import IconSocialBehance from "../icons/IconSocialBehance.vue";
 import IconSocialMedium from "../icons/IconSocialMedium.vue";
 import IconSocialTwitter from "../icons/IconSocialTwitter.vue";

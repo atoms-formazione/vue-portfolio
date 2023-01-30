@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import AboutList from "../atoms/AboutList.vue";
-import TitleText from "../atoms/TitleText.vue";
+import AboutList from "../molecules/AboutList.vue";
+import TitleText from "../molecules/TitleText.vue";
 
 const titleText = {
   title: "about.",
