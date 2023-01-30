@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div>
-    <h1>work.</h1>
+    <h1 id="work-title">work.</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate tristique
       quam felis. Id phasellus dui orci vulputate consequat nulla proin. Id sit
@@ -11,7 +11,7 @@
 </template>
 <style scoped>
 h1 {
-  width: 341px;
+  width: 500px;
   height: 116px;
   margin-bottom: 0;
 
@@ -21,9 +21,6 @@ h1 {
   font-size: 100px;
   line-height: 116px;
   color: #f7f197;
-
-  display: flex;
-  align-items: flex-end;
 }
 
 p {
@@ -39,20 +36,8 @@ p {
 }
 
 div {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
-
-  margin-top: 100px;
-  margin-right: 300px;
-}
-
-@media screen and (max-width: 1252px) {
-  div {
-    flex-wrap: nowrap;
-    margin: auto;
-  }
+  width: 1240px;
+  margin: auto;
+  margin-top: 184px;
 }
 </style>

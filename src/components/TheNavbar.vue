@@ -8,26 +8,37 @@ defineProps<{
 </script>
 
 <template>
-  <div class="container">
-    <span class="nav-intro">{{ firstName }} {{ lastName }}</span>
-    <nav class="nav-menu">
-      <RouterLink to="/">Home</RouterLink>
+  <div>
+    <div class="container">
+      <span class="nav-intro">{{ firstName }} {{ lastName }}</span>
+      <nav class="nav-menu">
+        <!--<RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
-      <RouterLink to="/work">Work</RouterLink>
-    </nav>
-    <nav class="nav-social">
-      <a href="#"><img src="./icons/Vector.png" alt="nav-twitter" /></a>
-      <a href="#"><img src="./icons/behance-2 1.png" alt="nav-twitter" /></a>
-      <a href="https://twitter.com/"
-        ><img src="./icons/icons8-twitter-60.png" alt="nav-twitter"
-      /></a>
-    </nav>
+      <RouterLink to="/work">Work</RouterLink>-->
+        <a href="#the-hero-section">Home</a>
+        <a href="#about-title">About</a>
+        <a href="#work-title">Work</a>
+      </nav>
+      <nav class="nav-social">
+        <a href="mailto:johndoe@mail.com"
+          ><img src="./icons/Vector.png" alt="nav-mail"
+        /></a>
+        <a href="https://behance.com/johndoe"
+          ><img src="./icons/behance-2 1.png" alt="nav-behance"
+        /></a>
+        <a href="https://twitter.com/johndoe"
+          ><img src="./icons/icons8-twitter-60.png" alt="nav-twitter"
+        /></a>
+      </nav>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .container {
   padding: 20px;
+  padding-top: 37px;
+  margin: 0 20px;
   display: flex;
   place-items: flex-start;
   flex-wrap: wrap;
@@ -68,7 +79,6 @@ defineProps<{
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-
   color: #03045e;
 }
 

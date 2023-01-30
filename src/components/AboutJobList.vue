@@ -21,7 +21,7 @@ let jobList = [
 ];
 </script>
 <template>
-  <div>
+  <div class="container">
     <ul>
       <li v-for="(job, index) in jobList" :key="index">
         <h3 class="job-date">{{ job.date }}</h3>
@@ -31,13 +31,23 @@ let jobList = [
   </div>
 </template>
 <style scoped>
-div {
-  display: flex;
-  justify-content: center;
+.container {
+  /*display: flex;
+  justify-content: center;*/
+
+  width: 1240px;
+  margin: auto;
+  margin-top: 119px;
+}
+
+.container > ul {
+  width: 900px;
+  margin-right: 74px;
+  margin-left: auto;
 }
 
 .job-date {
-  width: 122px;
+  width: 200px;
   height: 40px;
 
   font-family: "Poppins";
@@ -63,14 +73,10 @@ li {
   font-size: 30px;
 }
 
-@media screen and (max-width: 1050px) {
-  div {
-    flex-wrap: nowrap;
-    margin: auto;
-  }
-
-  .job-description {
-    width: 100%;
+@media screen and (max-width: 1240px) {
+  .container > ul {
+    /*margin-right: 74px;*/
+    margin-left: 50px;
   }
 }
 </style>

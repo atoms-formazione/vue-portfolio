@@ -20,25 +20,34 @@ let caseStudyList = [
 </script>
 <template>
   <div class="container">
-    <div class="card" v-for="(cs, index) in caseStudyList" :key="index">
-      <img class="cs-img" :src="cs.img" :alt="'case-study-' + (index + 1)" />
-      <p class="cs-date">{{ cs.date }}</p>
-      <h3 class="cs-title">{{ cs.title }}</h3>
-      <p class="cs-description scrollbar-style">{{ cs.description }}</p>
+    <div class="cards-carusel scrollbar-style">
+      <div class="card" v-for="(cs, index) in caseStudyList" :key="index">
+        <img class="cs-img" :src="cs.img" :alt="'case-study-' + (index + 1)" />
+        <p class="cs-date">{{ cs.date }}</p>
+        <h3 class="cs-title">{{ cs.title }}</h3>
+        <p class="cs-description scrollbar-style">{{ cs.description }}</p>
+      </div>
     </div>
   </div>
 </template>
 <style scoped>
 .container {
+  width: 1240px;
+  margin: 124px auto;
+}
+
+.cards-carusel {
   display: flex;
   gap: 120px;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: nowrap;
   align-items: flex-start;
+  overflow: overlay;
 }
 
 .card {
   width: 560px;
+  padding-bottom: 10px;
 }
 
 .cs-img {

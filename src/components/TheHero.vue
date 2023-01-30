@@ -11,7 +11,7 @@ const p1 = defineProps<{
 </script>
 
 <template>
-  <div>
+  <div id="the-hero-section">
     <!--<WelcomeIntro
       class="welcome-component"
       firstName="John"
@@ -28,8 +28,9 @@ div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
+  margin-top: 40px;
 }
 
 .welcome-component,
