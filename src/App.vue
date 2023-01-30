@@ -3,6 +3,7 @@ import TheNavbar from "./components/TheNavbar.vue";
 import TheHero from "./components/TheHero.vue";
 import AboutSection from "./components/AboutSection.vue";
 import WorkSection from "./components/WorkSection.vue";
+import ContactSection from "./components/ContactSection.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import WorkSection from "./components/WorkSection.vue";
   <TheHero></TheHero>
   <AboutSection></AboutSection>
   <WorkSection></WorkSection>
+  <ContactSection></ContactSection>
 </template>
 
 <style>
