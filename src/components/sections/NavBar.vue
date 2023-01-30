@@ -1,18 +1,15 @@
 <script setup lang="ts">
-import IconSocialBehance from "./icons/IconSocialBehance.vue";
-import IconSocialMedium from "./icons/IconSocialMedium.vue";
-import IconSocialTwitter from "./icons/IconSocialTwitter.vue";
+import NavLinks from "../atoms/NavLinks.vue";
+import IconSocialBehance from "../icons/IconSocialBehance.vue";
+import IconSocialMedium from "../icons/IconSocialMedium.vue";
+import IconSocialTwitter from "../icons/IconSocialTwitter.vue";
 </script>
 
 <template>
   <div class="navbar-container">
     <span class="my-name">John Doe</span>
 
-    <ul class="nav-links">
-      <li>Home</li>
-      <li>About</li>
-      <li>Work</li>
-    </ul>
+    <NavLinks :links="['Home', 'About', 'Work']" />
 
     <ul class="nav-icons">
       <li><IconSocialTwitter /></li>
@@ -34,18 +31,6 @@ import IconSocialTwitter from "./icons/IconSocialTwitter.vue";
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 61px;
-}
-
-.nav-links li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-  list-style: none;
 }
 
 .nav-icons {

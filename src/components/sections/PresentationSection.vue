@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import IconAvatarLines from "./icons/IconAvatarLines.vue";
-import IconAvatarPlus from "./icons/IconAvatarPlus.vue";
+import IconAvatarLines from "../icons/IconAvatarLines.vue";
+import IconAvatarPlus from "../icons/IconAvatarPlus.vue";
 </script>
 
 <template>
