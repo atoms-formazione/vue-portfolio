@@ -1,13 +1,26 @@
 <template>
     <div class="container">
-        <strong class="sectionTitle"> {{ sectionTitle }} </strong>
+        <strong class="sectionTitle"> {{ props.titleSection }} </strong>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, deleniti esse nesciunt, ducimus quam asperiores iure, laborum dolorum explicabo eaque vitae quisquam provident accusamus repellat eveniet impedit aut corrupti? Cumque.</p>
     </div>
 </template>
 
 <script setup lang="ts">
-const sectionTitle = "about.";
+
+const props = defineProps({
+    titleSection:{
+        type: String,
+        default: 'No text specified'
+    }
+});
+// const props = defineProps({
+//   title: String
+// })
+
+console.log(props.titleSection);
+
 </script>
+
 
 <style scoped>
 .sectionTitle{

@@ -2,7 +2,7 @@
       <div class="flex-container">
         
         <div class="titleText" id="about">
-            <TitleText></TitleText>
+            <TitleText titleSection=".about"></TitleText>
         </div>
         <div class="jobList">
             <JobList></JobList>

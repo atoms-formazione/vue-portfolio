@@ -42,6 +42,8 @@ const job = "Software Developer";
     position: relative;
     text-align: center;
     justify-content:center;
+    box-shadow: rgb(242, 59, 208) 5px 10px ;
+    
 }
 .container{
     width: 50vw;

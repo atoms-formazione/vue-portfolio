@@ -1,7 +1,7 @@
 <template>
   <div class="flex-container">
     <div class="titleText" id="about">
-      <TitleText></TitleText>
+      <TitleText titleSection="work."></TitleText>
     </div>
     <div class="case-studies">
       <CaseStudy1></CaseStudy1>
