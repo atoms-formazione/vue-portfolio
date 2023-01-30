@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
+// import { RouterLink, RouterView } from "vue-router";
 import TheNavBar from "./components/TheNavBar.vue";
 import TheHero from "./components/TheHero.vue";
 import AboutSection from "./components/AboutSection.vue";

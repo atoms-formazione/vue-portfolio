@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
 import WelcomeIntro from "./WelcomeIntro.vue";
 import BigAvatar from "./BigAvatar.vue";
 </script>
 
 <template>
-  <!-- the hero  -->
   <div>
     <WelcomeIntro id="introOrder"></WelcomeIntro>
     <BigAvatar id="imgOrder"></BigAvatar>
