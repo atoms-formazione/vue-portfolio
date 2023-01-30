@@ -11,6 +11,7 @@ export default {};
 </script>
 <style>
 .description {
+  width: 50%;
   font-family: "Poppins";
   font-style: normal;
   color: #03045e;

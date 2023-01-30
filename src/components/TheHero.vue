@@ -1,8 +1,8 @@
 <template>
   <div class="hero">
-    <TheHeroWelcomeIntro> </TheHeroWelcomeIntro>
+    <TheHeroWelcomeIntro class="intro"> </TheHeroWelcomeIntro>
 
-    <TheHeroBigAvatar> </TheHeroBigAvatar>
+    <TheHeroBigAvatar class="bigAvatar"> </TheHeroBigAvatar>
   </div>
 </template>
 <script setup lang="ts">
@@ -12,8 +12,14 @@ import TheHeroBigAvatar from "./TheHeroBigAvatar.vue";
 <style>
 .hero {
   display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
   margin: 2rem;
-  width: 768px;
-  gap: 10rem;
+  gap: 10rem
+}
+.bigAvatar, .intro{
+  width: 458px;
 }
 </style>

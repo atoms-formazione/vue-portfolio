@@ -10,6 +10,9 @@ export default {};
 </script>
 <style>
 .big-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-right: 0px;
   width: 306px;
   height: 309px;
@@ -17,22 +20,28 @@ export default {};
 .big-avatar1 {
   width: 50px;
   height: 56px;
+  position: relative;
+  bottom: 322px;
+    left: 269px;
 
-  transform: translate(-10%, -200%);
+  /* transform: translate(-10%, -200%); */
 }
 .big-avatar2 {
   width: 103.85px;
   height: 29.44px;
+  position: relative;
+  top: -182px;
+  left: 319px;
   /* mix-blend-mode: color-burn; */
   transform: translate(-380%, 240%);
   background-color: transparent;
 }
 .images {
-  display: flex;
+  width: 50%;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100px;
-  position: relative;
+  align-items: center; */
+ /*  width: 100px; */
   /* transform: translate(400%); */
 }
 /* .big-avatar {

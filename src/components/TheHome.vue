@@ -2,19 +2,16 @@
 import TheNavBar from "./TheNavBar.vue";
 import TheHero from "./TheHero.vue";
 import AboutSection from "./AboutSection.vue";
+import WorkSection from "./WorkSection.vue";
+import TheContact from "./TheContact.vue";
 </script>
 
 <template>
-  <div>
-    <TheNavBar id="home"> </TheNavBar>
-  </div>
-
-  <div>
-    <TheHero> </TheHero>
-  </div>
-  <div>
-    <AboutSection></AboutSection>
-  </div>
+  <TheNavBar id="home"> </TheNavBar>
+  <TheHero> </TheHero>
+  <AboutSection></AboutSection>
+  <WorkSection></WorkSection>
+  <TheContact></TheContact>
 </template>
 
 <style>
