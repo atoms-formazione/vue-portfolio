@@ -23,10 +23,12 @@ defineProps<{
 }
 
 #btn-resume {
-  width: 164px;
-  height: 68px;
+  width: 158px;
+  height: 62px;
   color: #474306;
   font-size: 20px;
+  margin-top: 38px;
+  margin-left: 10px;
 
   display: block;
   position: relative;
@@ -34,22 +36,23 @@ defineProps<{
   cursor: pointer;
 
   border: none;
-  outline: #474306 solid 2px;
-  border-radius: 5px;
+  outline: #474306 solid 1px;
+  border-radius: 6px;
   background-color: transparent;
 }
 
 #btn-resume::before {
   content: "";
-  border-radius: 5px;
+  border-radius: 6px;
   position: absolute;
   display: block;
   bottom: -6px;
   left: 6px;
-  width: 164px;
-  height: 68px;
+  width: 158px;
+  height: 62px;
   z-index: -1;
   background-color: #f5ee84;
+  outline: #f5ee84 1px solid;
 }
 
 #btn-resume:active {
