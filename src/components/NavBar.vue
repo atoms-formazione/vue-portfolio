@@ -5,8 +5,9 @@
     </div>
     <div class="pages">
       <a href="">Home</a>
-      <a href="">About Me</a>
-      <a href="">Projects</a>
+      <a href="#aboutme">About Me</a>
+      <a href="#workspace">Projects</a>
+      <a href="#contatti">Contatti</a>
     </div>
     <div class="icons">
       <svg

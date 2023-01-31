@@ -11,10 +11,10 @@ import Contatacs from "./components/Contatacs.vue";
     <NavBar></NavBar>
     <TheHero></TheHero>
     <div class="midsection">
-      <div class="about"><AboutMe></AboutMe></div>
-      <div class="workspace"><WorkSpace></WorkSpace></div>
+      <div class="about" id="aboutme"><AboutMe></AboutMe></div>
+      <div class="workspace" id="workspace"><WorkSpace></WorkSpace></div>
     </div>
-    <Contatacs></Contatacs>
+    <Contatacs id="contatti"></Contatacs>
   </div>
 </template>
 
@@ -24,11 +24,10 @@ import Contatacs from "./components/Contatacs.vue";
   margin-bottom: -150px;
 }
 
-.about{
-  flex:1;
+.about {
+  flex: 1;
 }
 .workspace {
   flex: 1;
 }
-
 </style>
