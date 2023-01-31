@@ -1,6 +1,4 @@
-<script setup lang="ts">
-//
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
@@ -20,16 +18,13 @@
   color: rgb(196, 196, 134);
   float: left;
   position: relative;
-  top: 400px;
-  left: 30px;
+  top: 48px;
+  text-decoration: underline;
 }
 #titleText {
   font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
   color: black;
   float: left;
-  position: relative;
-  top: 345px;
-  left: 30px;
-  padding-right: 500px;
 }
 </style>

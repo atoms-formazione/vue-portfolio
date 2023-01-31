@@ -12,16 +12,16 @@ import BigAvatar from "./BigAvatar.vue";
 
 <style scoped>
 #introOrder {
-  position: fixed;
-  top: 21%;
-  left: 4%;
+  position: relative;
+  top: 70px;
+  width: 85%;
 }
 
 #imgOrder {
   display: flex;
   float: right;
-  position: fixed;
-  top: 17%;
-  right: 25%;
+  position: relative;
+  top: -215px;
+  right: 19%;
 }
 </style>

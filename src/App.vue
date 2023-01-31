@@ -3,6 +3,7 @@
 import TheNavBar from "./components/TheNavBar.vue";
 import TheHero from "./components/TheHero.vue";
 import AboutSection from "./components/AboutSection.vue";
+import WorkSection from "./components/WorkSection.vue";
 </script>
 
 <template>
@@ -15,6 +16,9 @@ import AboutSection from "./components/AboutSection.vue";
     </div>
     <div>
       <about-section></about-section>
+    </div>
+    <div>
+      <work-section></work-section>
     </div>
   </header>
 </template>
