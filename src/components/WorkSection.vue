@@ -17,7 +17,7 @@ import CaseStudy2 from "./CaseStudy2.vue";
 <style scoped>
 .cases {
   display: flex;
-  gap: 30%;
+  gap: 10%;
   margin-left: 50px;
 }
 </style>

@@ -34,5 +34,6 @@
 .text {
   font-size: large;
   color: #03045e;
+  margin-left: 0px;
 }
 </style>
