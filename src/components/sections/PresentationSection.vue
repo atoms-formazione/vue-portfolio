@@ -14,7 +14,7 @@ import IconAvatarPlus from "../icons/IconAvatarPlus.vue";
     </div>
 
     <div class="avatar-container">
-      <img src="static/images/my-avatar.png" alt="A photo of me" />
+      <img src="/static/images/my-avatar.png" alt="A photo of me" />
       <IconAvatarLines class="icon-lines" />
       <IconAvatarPlus class="icon-plus" />
     </div>

@@ -11,7 +11,7 @@ const titleText = {
     <TitleText v-bind="titleText" />
 
     <div class="image-text-container">
-      <img src="static/images/contact.png" alt="A pen" />
+      <img src="/static/images/contact.png" alt="A pen" />
 
       <div>
         <p>

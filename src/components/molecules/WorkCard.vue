@@ -11,7 +11,7 @@ defineProps<WorkCardProps>();
 
 <template>
   <div class="card-container">
-    <img :src="`static/images/${image}.png`" :alt="title" />
+    <img :src="`/static/images/${image}.png`" :alt="title" />
     <h6>{{ date }}</h6>
     <h4>{{ title }}</h4>
     <p>{{ description }}</p>
