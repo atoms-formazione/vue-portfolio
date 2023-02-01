@@ -41,7 +41,7 @@
 }
 #caseTitle2 {
   position: relative;
-  bottom: 321px;
+  bottom: 324px;
   left: 803px;
 }
 #caseTxt1 {
