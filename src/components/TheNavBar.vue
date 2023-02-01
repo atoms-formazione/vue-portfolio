@@ -40,7 +40,7 @@
   position: relative;
   font-weight: normal;
   top: 0%;
-  left: 16%;
+  left: 13%;
   height: 29px;
   width: auto;
   border-radius: 10px;
@@ -53,7 +53,7 @@
 .topnav #icons {
   position: relative;
   top: 16px;
-  right: -38%;
+  right: -36%;
 }
 .topnav #icons:hover {
   background-color: rgb(230, 225, 154);
