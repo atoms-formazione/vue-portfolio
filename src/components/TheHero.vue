@@ -22,6 +22,6 @@ import BigAvatar from "./BigAvatar.vue";
   float: right;
   position: relative;
   top: -215px;
-  right: 19%;
+  right: 13%;
 }
 </style>

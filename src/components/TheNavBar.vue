@@ -6,9 +6,9 @@
     <b href="url_home">Home</b>
     <b href="url_about">About</b>
     <b href="url_work">Work</b>
-    <img id="icons" height="30" width="30" src="icon1.png" />
-    <img id="icons" height="30" width="30" src="icon2.png" />
-    <img id="icons" height="30" width="30" src="icon3.png" />
+    <img id="icons" height="35" width="35" src="icon1.png" />
+    <img id="icons" height="35" width="35" src="icon2.png" />
+    <img id="icons" height="35" width="35" src="icon3.png" />
   </div>
 </template>
 
@@ -53,7 +53,7 @@
 .topnav #icons {
   position: relative;
   top: 16px;
-  right: -39%;
+  right: -38%;
 }
 .topnav #icons:hover {
   background-color: rgb(230, 225, 154);

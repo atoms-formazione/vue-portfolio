@@ -15,13 +15,13 @@ import JobList from "./JobList.vue";
   position: relative;
   top: 150px;
   left: 35px;
-  padding-right: 500px;
+  padding-right: 470px;
 }
 
 #jobListOrder {
   position: relative;
-  top: 170px;
-  left: 120px;
+  top: 175px;
+  left: 160px;
   padding-right: 250px;
 }
 </style>

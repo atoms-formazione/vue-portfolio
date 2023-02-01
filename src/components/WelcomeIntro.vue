@@ -19,7 +19,7 @@
 }
 
 .left {
-  margin-left: 18%;
+  margin-left: 17%;
 }
 
 #big {
