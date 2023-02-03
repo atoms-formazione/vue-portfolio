@@ -5,7 +5,7 @@
     </div>
 </template>
 <script setup lang="ts" >
-import TitleText from './TitleText.vue';
+import TitleText from './TitleTextAbout.vue';
 import JobList from './JobList.vue';
 </script>
 <style lang="css">
