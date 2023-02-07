@@ -4,6 +4,8 @@ This template should help get you started developing with Vue 3 in Vite.
 
 https://vue-portfolio-formazione.netlify.app/
 
+Figma: https://www.figma.com/file/WepX0RfCHHa2Ba4MR8Z9nv/Portfolio-(Community)?node-id=0:1&t=NbCyTQjTxWsH4kr4-0
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
